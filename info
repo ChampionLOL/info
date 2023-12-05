@@ -1,2 +1,78 @@
-updated nothing new 
-waiting on more info
+UWorld ->  48 89 05 ? 1E FE 0F / 0x1123AF78
+GObjects -> 48 8B 05 ? ? ? ? 48 8B 0C C8 48 8B 04 D1 /  0x11213D40
+
+bs
+
+RootComponent -> 0x198
+ReloadTime ->  0xef0
+CurrentAmmoCount -> 0xf28
+CurrentWeapon -> 0xb68
+GameInstance -> 0x1d0
+
+//vtables
+drawtransition -> 0x70 [vtable]
+viewpointclient -> 0x71 [vtable]
+postrender -> 0x6F [vtable]
+processevent -> 0x4C [vtable]
+getviewpoint -> 0x7F0 [vtable]
+setcontrolrotation -> 0x760 [vtable]
+getcameralocation -> 0x808 [vtable]
+getcamerarotation -> 0x800 [vtable]
+getfovangle -> 0x7C0 [vtable]
+lineofsightto -> 0x770 [vtable]
+addpitchinput -> 0xCF0 [vtable]
+setcameramode -> 0xA08 [vtable]
+addyawinput -> 0xCF8 [vtable]
+
+//offsets
+gameinstance -> 0x1d0
+LocalPlayers -> 0x38
+PlayerController -> 0x30
+LocalPawn -> 0x338
+PlayerState -> 0x2b0
+RootComponent -> 0x198
+GameState -> 0x158
+PersistentLevel -> 0x30
+LastSubmitTime -> 0x368
+LastRenderTimeOnScreen -> 0x370
+ActorCount -> 0xA0
+Cameramanager -> 0x348
+AActor -> 0xa0 
+CurrentActor -> 0xa8
+Mesh -> 0x318
+Revivefromdbnotime -> 0x4b68
+TeamId -> 0x10e0
+ActorTeamId -> 0x10e0
+IsDBNO -> 0x9A3
+LocalActorPos -> 0x120
+ComponetToWorld -> 0x240
+Velocity -> 0xb8
+C2World -> 0x230
+BoneArray -> 0x608 
+BoneCache -> 0x618
+Private -> 0x308 //PawnPrivate
+PlayerArray -> 0x2A8
+relativelocation -> 0x128
+UCharacterMovementComponent -> 0x320
+bIsReloadingWeapon -> 0x360
+bIsChargingWeapon -> 0x361
+VTable -> 0x70
+DrawTransition -> 0x4C
+bIsChargingWeapon -> 0x361
+bDisableEquipAnimation -> 0x362
+Tier -> 0x73
+bIsAimingConsumable -> 0x364
+LastSubmitTime -> 0x358
+LastSubmitTimeOnScreen -> 0x360
+WeaponData -> 0x4a8
+bIsTargeting -> 0xd30
+GlobalAnimRateScale -> 0xa68
+Current Weapon -> 0x2840
+CurrentWeapon -> 0xA20
+Wireframe -> 0x7ce
+CustomTimeD -> 0x68
+GlobalAnimRateScale -> 0xA68
+CachedFuelComponent -> 0x1250
+SkeletalMeshes -> 0xb40
+PawnMaterials_ALL -> 0x5b80
+ViewingSpectators -> 0x190
